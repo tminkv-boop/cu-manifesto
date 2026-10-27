@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Manifesto | Fraternity CU Campus</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Noto+Sans+Malayalam:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Montserrat', 'Noto Sans Malayalam', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0F265C', // Fraternity Blue
+                            dark: '#0a193d',
+                            accent: '#FACC15', // Yellow Accent
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth scrolling and basic animations */
+        html { scroll-behavior: smooth; }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased selection:bg-brand-blue selection:text-white">
+
+    <!-- Header Section -->
+    <header class="bg-brand-blue text-white py-20 px-4 relative overflow-hidden shadow-lg border-b-4 border-brand-accent">
+        <!-- Abstract subtle background pattern -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at center, #ffffff 1px, transparent 1px); background-size: 24px 24px;"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10 fade-in-up">
+            <h1 class="text-5xl md:text-7xl font-black uppercase tracking-tight mb-4 leading-tight drop-shadow-md">
+                Election <br> Manifesto
+            </h1>
+            <p class="text-xl md:text-3xl font-semibold text-blue-100 mt-4 max-w-2xl mx-auto tracking-wide">
+                Fraternity Calicut University Campus
+            </p>
+            <div class="mt-10">
+                <a href="#manifesto-gallery" class="inline-block bg-white text-brand-blue font-bold px-8 py-3 rounded-full hover:bg-brand-accent transition duration-300 shadow-lg transform hover:-translate-y-1">
+                    View Our Vision
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Manifesto Posters Gallery -->
+    <main id="manifesto-gallery" class="py-16 md:py-24 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-3xl md:text-5xl font-black text-brand-dark uppercase tracking-wide">Our Promises</h2>
+                <div class="w-24 h-1.5 bg-brand-accent mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <!-- Poster Grid: 1 column on mobile, 2 on medium screens, 3 on large screens -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                
+                <!-- Poster 1 -->
+                <div class="fade-in-up">
+                    <img src="1000575777.jpg" alt="Rohith Vemula Fellowship and Equal Opportunity Cell" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Rohith+Nayikkatte'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+                
+                <!-- Poster 2 -->
+                <div class="fade-in-up" style="animation-delay: 100ms;">
+                    <img src="1000575891_2.jpg" alt="Avalkayi - She Fest and Women Empowerment" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Avalkayi'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 3 -->
+                <div class="fade-in-up" style="animation-delay: 200ms;">
+                    <img src="1000575816_2.jpg" alt="Chalo CU - Campus Transport and Buggy Services" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Chalo+CU'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 4 -->
+                <div class="fade-in-up">
+                    <img src="1000576120.png" alt="24/7 Campus - Library and Cafeteria" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=24/7+Campus'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 5 -->
+                <div class="fade-in-up" style="animation-delay: 100ms;">
+                    <img src="1000576104_2.png" alt="Smart Campus and Transparent Hostel Administration" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Smart+Campus'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 6 -->
+                <div class="fade-in-up" style="animation-delay: 200ms;">
+                    <img src="1000576045_2.png" alt="Career Guidance and Placement Cell" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Career+Guidance'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 7 -->
+                <div class="fade-in-up">
+                    <img src="1000575990_2.png" alt="Coaching Free Campus - NET and PSC Coaching" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Free+Coaching'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 8 -->
+                <div class="fade-in-up" style="animation-delay: 100ms;">
+                    <img src="1000576068_2.png" alt="Oppamundu Campus - Differently-Abled Friendly Infrastructure" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Oppamundu+Campus'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 9 -->
+                <div class="fade-in-up" style="animation-delay: 200ms;">
+                    <img src="1000576013_2.png" alt="Student Adalat - Justice and Grievance Redressal" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Student+Adalat'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 10 -->
+                <div class="fade-in-up">
+                    <img src="1000575850_2.png" alt="Samvadathmaka Campus - Debate and Dialogue" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Debate+Campus'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 11 -->
+                <div class="fade-in-up" style="animation-delay: 100ms;">
+                    <img src="1000575862.png" alt="Campus Finale - Arts and Culture Festival" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Campus+Finale'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+                <!-- Poster 12 -->
+                <div class="fade-in-up" style="animation-delay: 200ms;">
+                    <img src="1000575885.png" alt="Fit Campus - Sports and Athletics" onerror="this.src='https://placehold.co/800x1000/0f265c/ffffff?text=Fit+Campus'" class="w-full h-auto shadow-2xl rounded-xl border-2 border-gray-200 transition transform hover:scale-[1.02] hover:shadow-3xl duration-300">
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Panel Photo Section -->
+    <section class="py-12 bg-white border-t border-gray-200 px-4">
+        <div class="max-w-6xl mx-auto fade-in-up">
+            <div class="bg-gray-100 p-2 md:p-4 rounded-2xl shadow-xl">
+                <img src="panel-photo.jpg" alt="Fraternity Movement Full Panel Group Photo" onerror="this.src='https://placehold.co/1200x600/0f265c/ffffff?text=Full+Panel+Photo'" class="w-full h-auto object-cover rounded-xl border border-gray-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Panel Members Section -->
+    <section class="bg-brand-blue py-20 px-4 text-white">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-4xl md:text-5xl font-black uppercase tracking-widest text-white drop-shadow-md">Our Panel</h2>
+                <div class="w-24 h-1.5 bg-brand-accent mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <!-- Panel List Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Chairperson -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 lg:col-start-2 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">Chairperson</p>
+                    <h3 class="text-2xl font-black text-white">THANHA</h3>
+                </div>
+
+                <!-- Vice Chairperson -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">Vice - Chairperson</p>
+                    <h3 class="text-2xl font-black text-white">RINSINA N K</h3>
+                </div>
+
+                <!-- General Secretary -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">General Secretary</p>
+                    <h3 class="text-2xl font-black text-white">ANFAL ASHRAF S K</h3>
+                </div>
+
+                <!-- Joint Secretary -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">Joint Secretary</p>
+                    <h3 class="text-2xl font-black text-white">AFRINA BINU MP</h3>
+                </div>
+
+                <!-- UUC -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">UUC</p>
+                    <h3 class="text-2xl font-black text-white">ANU SHAHWAN MK</h3>
+                </div>
+
+                <!-- Fine Arts Secretary -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">Fine Arts Secretary</p>
+                    <h3 class="text-2xl font-black text-white">AREEBA T S</h3>
+                </div>
+
+                <!-- General Captain -->
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-xl text-center transform transition duration-300 hover:-translate-y-2 hover:bg-white/20 lg:col-start-2 shadow-lg fade-in-up">
+                    <p class="text-brand-accent font-bold text-sm tracking-widest uppercase mb-2">General Captain</p>
+                    <h3 class="text-2xl font-black text-white">HAMD PV</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Closing Footer -->
+    <footer class="bg-gray-50 py-20 px-4 text-center border-t border-gray-200 overflow-hidden">
+        <div class="max-w-4xl mx-auto fade-in-up">
+            <h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter text-brand-dark mb-4 transform hover:scale-105 transition duration-500 ease-in-out">
+                VOTE FOR <br class="md:hidden"><span class="text-brand-blue">FRATERNITY</span>
+            </h2>
+            <div class="flex items-center justify-center gap-4 mt-8 mb-8">
+                <span class="w-12 md:w-24 h-0.5 bg-gray-300 block"></span>
+                <span class="text-brand-accent text-3xl">★</span>
+                <span class="text-brand-accent text-4xl">★</span>
+                <span class="text-brand-accent text-3xl">★</span>
+                <span class="w-12 md:w-24 h-0.5 bg-gray-300 block"></span>
+            </div>
+            <p class="text-gray-500 text-sm font-semibold tracking-widest uppercase">
+                Calicut University Campus
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scroll Animation Observer -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                        entry.target.style.opacity = '1';
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Pause animations initially, observer will trigger them
+            document.querySelectorAll('.fade-in-up').forEach((el) => {
+                el.style.opacity = '0';
+                el.style.animationPlayState = 'paused';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
